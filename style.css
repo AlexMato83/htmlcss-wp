@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+body{
+  margin:0;
+  padding:0;
+  background-image: url("https://organicthemes.com/wp-content/uploads/2016/01/default-pattern.png");
+}
+/* div principale */
+#madre{
+  margin:20px 40px;
+
+}
+/* header */
+header{
+  height: 250px;
+  position: relative;
+}
+#titolone {
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+  height:70%;
+  background-size: cover;
+  padding:10px;
+  position: relative;
+  border:10px solid white;
+}
+
+#scrittacentrata {
+  width: 100%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 50px;
+  color:white;
+  text-align: center;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color:white;
+  font-weight: 600;
+  text-align: center;
+}
+
+#nav {
+  width: 100%;
+  height: 20%;
+  background-color: #504741;
+  border:1px solid black;
+
+
+}
+/* inizio list */
+
+#nav > ul{
+  height: 100%;
+  width: 40%;
+  margin-left: 30%;
+}
+
+#nav > ul > li{
+  height: 100%;
+  width: 20%;
+  list-style-type: none;
+  float: left;
+  padding:10px;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+#nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+/* fine list */
+/* fine header */
+
+/* inizio CORPO PRINCIPALE */
+#figlio{
+  margin-top: 20px;
+  width: 100%;
+}
+
+#figlio::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+/* inizio colonna SINISTRA */
+#sinistra {
+  width: 18%;
+  height: 750px;
+  float: left;
+}
+
+.liste_sx{
+  height: 100%;
+  width: 100%;
+  padding:20px;
+}
+
+.liste_sx > ul > li >a {
+  color:#99cc33;
+  display:block;
+  height: 35px;
+}
+
+.liste_sx > ul >li >h4{
+  display: block;
+  margin-bottom: 25px;
+}
+.liste_sx >ul {
+  list-style-type: none;
+}
+.sx {
+  border:1px solid black;
+  background-color: red;
+}
+
+.sx:first-child{
+  height: 50%;
+
+}
+.sx:nth-child(2){
+  height: 20%;
+  margin: 20px 0;
+
+}
+.sx:nth-child(3) {
+  height: 30%;
+  padding-top: 10px;
+}
+/* fine colonna SINISTRA */
+
+
+footer{
+  height: 400px;
+  background-color: pink;
+}
+
+
+#centrale{
+  width: 47%;
+  height: 2650px;
+  float: left;
+  background-color: blue;
+  margin: 0 34px 0;
+}
+
+.articoli{
+  height: 25%;
+  border-bottom: 1px solid white;
+
+}
+/* inizio colonna DESTRA */
+#dx {
+  width: 28%;
+  height:300px;
+  /* background-color: white; */
+
+  float: right;
+
+
+}
+
+.blocchi_dx:first-child{
+  height: 30%;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  background-color: black;
+}
+.blocchi_dx:nth-child(2){
+  height: 70%;
+  background-color: black;
+
+}
+.collegamenti {
+  height: 60%;
+  width: 20%;
+  border:1px solid black;
+  float: left;
+  background-color: grey;
+}
+.collegamenti:nth-child(4) {
+  width: 40%;
+  border:1px solid black;
+  height: 60%;
+  float:left;
+  background-color: grey;
+}
+.collegamenti:nth-child(5) {
+  height: 40%;
+  width: 100%;
+  background-color: black;
+}
